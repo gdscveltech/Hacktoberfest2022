@@ -9,7 +9,7 @@ Make your first Pull Request on Hacktoberfest 2022. Don't forget to spread love 
 <p>Every year in October, an open source event called Hacktoberfest inspires individuals all over the world to actively engage in and contribute to open source projects that are hosted on GitHub and GitLab. By taking part in this event, you may receive a free GitHub swag pack. You must submit 4 pull requests in order to receive that awesome swag pack.</p>
 
 ## AUTHOUR
-* **GDSC- Galgotias University**
+* **GDSC- Veltech University**
 *  **[Linktree](https://linktr.ee/GDSC_GU)**
 
 ## Let's begin
