@@ -10,7 +10,7 @@ Make your first Pull Request on Hacktoberfest 2022. Don't forget to spread love 
 
 ## AUTHOUR
 * **GDSC- Veltech University**
-*  **[Linktree](https://linktr.ee/GDSC_GU)**
+*  **[Linktree](https://linktr.ee/gdscveltech)**
 
 ## Let's begin
 
