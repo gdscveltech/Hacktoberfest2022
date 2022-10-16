@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-color: #12121f;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar {
+    width: 45*2/3rem;
+    height: 52*2/3rem;
+    color: #eee;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  }
+  
+  .month {
+    
+    height: 12*2/3rem;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2*2/3rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .month i {
+    font-size: 2.5*2/3rem;
+    cursor: pointer;
+  }
+  
+  .month h1 {
+    font-size: 3*2/3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2*2/3rem;
+    margin-bottom: 1*2/3rem;
+  }
+  
+  .month p {
+    font-size: 1.6*2/3rem;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 5*2/3rem;
+    padding: 0 0.4*2/3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays div {
+    font-size: 1.5*2/3rem;
+    font-weight: 400;
+    letter-spacing: 0.1*2/3rem;
+    width: calc(44.2rem*2/3 / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem*2/3 0.5rem*2/3 rgba(0, 0, 0, 0.5);
+  }
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem*2/3;
+  }
+  
+  .days div {
+    font-size: 1.4*2/3rem;
+    margin: 0.3*2/3rem;
+    width: calc(40.2rem*2/3 / 7);
+    height: 5*2/3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3*2/3rem 0.5*2/3rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2*2/3rem solid #777;
+    cursor: pointer;
+  }
+  
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+  
+  .today {
+    background-color: #167e56;
+  }
+  
+  .rightbar{
+      background-color: white;
+      height: 108vh;
+      transform: translateY(0px);
+      transform: translateX(119px);
+      color: #12121f;
+      width: 25vw;
+      padding: 20px;
+      margin-right: 10px;
+      
+  }

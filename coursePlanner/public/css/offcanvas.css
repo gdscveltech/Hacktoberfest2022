@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+  background: #283B66;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+    border-radius: 50%;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+
+ 
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+  color: #283B66;
+
+  background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+  color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+  display: block;
+}
+
+.wrapper .section{
+  width: calc(100% - 225px);
+  margin-left: 225px;
+  transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+  background: #283B66;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+ 
+}
+.dropdown-item{
+    font-size: 15px;
+}
+.n1{
+    font-size: 16px ;
+    
+}
+
+
+.wrapper .section .top_navbar .hamburger a{
+  font-size: 28px;
+  color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover{
+  color: #a2ecff;
+}
+
+ .wrapper .section .container{
+  margin: 30px;
+  background: #fff;
+  padding: 50px;
+  line-height: 28px;
+}
+
+body.active .wrapper .sidebar{
+  left: -225px;
+}
+
+body.active .wrapper .section{
+  margin-left: 0;
+  width: 100%;
+}
+
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+    color: #fff;
+    height: 100%
+}
+
+#sidebar-wrapper {
+    margin-left: -150px;
+    left: 70px;
+    width: 150px;
+    background: #222;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+}
+
+#username{
+    margin-left: 30px;
+
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page-content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#sidebar_menu li a, .sidebar-nav li a {
+    color: #999;
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 150px;
+    background: #252525;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    -ms-transition: background .5s;
+    transition: background .5s;
+}
+.sidebar_name {
+    padding-top: 25px;
+    color: #fff;
+    opacity: .7;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#main_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:20px;
+}
+.sub_icon
+{
+    float:right;
+   padding-right: 65px;
+   padding-top:10px;
+}
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+.uppercontent{
+    
+    
+    max-width: 90vw;
+}
+.tile{
+ padding: 100px;
+}
+
+.maincontainer{
+    display: flex;
+    float: left;
+}
+
+
+.page{
+    display: flexbox;
+}
+
+
+
+
+#center
+	{
+		font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	}
+
+
+@media (max-width:767px) {
+    #wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+}
+#sidebar-wrapper {
+    left: 70px;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+    width: 150px;
+    transition: all .4s ease 0s;
+}
+}
+.fixing{
+    position: fixed;
+}
+.one
+{
+    float: left;
+    margin: 1% 2.5%;
+    text-align: justify;
+   width: 20%;
+   transform: translateY(-140px);
+}
+.one a
+{
+	text-decoration:none;
+	 font-weight: 700;
+	     color: #283B66;
+	
+	
+}
+.one p
+{
+	
+    font-size: 13px;
+    padding: 2.5% 5%;
+    margin: 0px;
+}
+.one h1
+ {
+    font-size: 16px;
+    margin: 0px;
+    padding: 2.5%;
+    background: rgba(59,89,152,0.5);
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.two
+{
+    float: left;
+    margin: 1% 2.5%;
+    text-align: justify;
+   width: 100%;
+   transform: translateY(-140px);
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+.headcourse{
+    transform: translateX(100px);
+    margin-left: 500px;
+    transform: translateY(-200px);
+}
+.card{
+    
+    margin: 20px;
+    
+}
+
+#ifnot{
+    width: 50vw;
+    transform: translateX(-20vw);
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
